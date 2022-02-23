@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header h1{
+    size: 100px;
+}
+
+.div2{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: coral;
+    
+    
+}
+
+.header button{
+    height: 50px;
+    width: 50px;
+    background: red;
+    border:0 transparent solid ;
+    border-radius: 12px;
+}
