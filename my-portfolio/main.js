@@ -1,6 +1,8 @@
-import './style.css'
+import * as Three from "three";
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+const scene=new Three.Scene();
+const camera=new Three.PerspectiveCamera(75,innerWidth/innerHeight,0.1,1000);
+const renderer=new Three.WebGLRenderer();
+console.log(scene);
+console.log(camera);
+console.log(renderer);
