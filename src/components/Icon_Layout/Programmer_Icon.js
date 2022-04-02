@@ -3,7 +3,7 @@ import "./Programmer_Icon.css";
 const ProgrammerIcon = () => {
   return (
     <svg viewBox="0 0 47 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g id="coding 1" clip-path="url(#clip0_0_1)">
+      {/* <g id="coding 1" clip-path="url(#clip0_0_1)"> */}
         <g id="head">
           <path
             id="Vector"
@@ -622,7 +622,7 @@ const ProgrammerIcon = () => {
           d="M39.2643 21.7057H38.7045C38.6772 21.7057 38.655 21.7305 38.655 21.761C38.655 21.7916 38.6772 21.8163 38.7045 21.8163H39.2643C39.2916 21.8163 39.3137 21.7916 39.3137 21.761C39.3137 21.7305 39.2916 21.7057 39.2643 21.7057Z"
           fill="#CCCCCC"
         />
-      </g>
+      {/* </g> */}
       
     </svg>
   );

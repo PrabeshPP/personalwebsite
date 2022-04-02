@@ -1,10 +1,14 @@
-import './App.css';
-import HeaderBackGround from "./components/Layout/Header_BackGround";
+
+import Header from './components/Layout/Header';
+import classes from './App.module.css';
+import DescriptionBox from './components/Layout/Description';
 
 function App() {
   return (
-    <div className="App">
-        <HeaderBackGround/>
+    <div className={classes.App}>
+        
+        <Header/>
+        <DescriptionBox/>
         
     </div>
   );
