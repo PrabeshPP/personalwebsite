@@ -1,5 +1,4 @@
 import './App.css';
-import Header from './components/Header';
 import HeaderBackGround from './components/Header_BackGround';
 
 function App() {

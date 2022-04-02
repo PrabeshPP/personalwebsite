@@ -7,11 +7,15 @@
     border-radius: 5rem;
     margin: auto;
     z-index: 10;
+    position: absolute;
+    top: 0%;
+    left: 10%;
     
 }
 
 .h1{
     font-family: 'Inconsolata', monospace;
+    color: rgb(0, 3, 30);
 }
 
 .box2{
@@ -28,28 +32,32 @@
     font-weight: bold;
     justify-content: space-around;
     width: 70%;
+    color: white;
     
 
 }
 
 .box2 li:hover,
 li:active{
-    color: wheat;
+    color: rgb(190, 123, 0);
     cursor: pointer;
 }
 
 .button{
     width: 20%;
     height: 6vh;
-    border: 2px solid pink;
+    border: 2px solid rgba(0, 0, 0, 0);
     text-align: center;
     border-radius: 16px;
+    font-weight: bold;
+    background-color: rgb(255, 166, 0);
 
 }
 
 .button:hover,
 .button:active{
-    background-color: rgb(163, 196, 0);
+    background-color: rgb(170, 0, 255);
     cursor: pointer;
     box-shadow: 2px 2px 3px black;
+    color: white;
 }
