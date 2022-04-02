@@ -1,0 +1,21 @@
+.container{
+    height: 50vh;
+    width: 110%;
+    transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+    animation-duration: 5s;
+    animation-name: colorAnim;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+
+@keyframes colorAnim {
+    from{
+        background-color: crimson;
+    }
+
+    to{
+        background-color: violet;
+    }
+    
+}

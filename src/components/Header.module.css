@@ -1,0 +1,55 @@
+.header{
+    display: flex;
+    width: 80vw;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5rem;
+    margin: auto;
+    z-index: 10;
+    
+}
+
+.h1{
+    font-family: 'Inconsolata', monospace;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.box2 ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    justify-content: space-around;
+    width: 70%;
+    
+
+}
+
+.box2 li:hover,
+li:active{
+    color: wheat;
+    cursor: pointer;
+}
+
+.button{
+    width: 20%;
+    height: 6vh;
+    border: 2px solid pink;
+    text-align: center;
+    border-radius: 16px;
+
+}
+
+.button:hover,
+.button:active{
+    background-color: rgb(163, 196, 0);
+    cursor: pointer;
+    box-shadow: 2px 2px 3px black;
+}
