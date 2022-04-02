@@ -13,9 +13,11 @@
     
 }
 
-.h1{
-    font-family: 'Inconsolata', monospace;
-    color: rgb(0, 3, 30);
+.progIcon{
+    height: 30vh;
+    width: 20%;
+    
+   
 }
 
 .box2{

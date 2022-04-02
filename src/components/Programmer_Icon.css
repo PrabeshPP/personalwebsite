@@ -1,0 +1,17 @@
+#wire{
+    animation-name: wire;
+    animation-duration: 1s;
+    animation-direction:alternate-reverse;
+    animation-iteration-count: infinite;
+    fill: red;
+    
+}
+
+@keyframes wire {
+    from{
+        fill: red;
+    }
+     to{
+         fill: rgb(246, 255, 0);
+     }
+}
