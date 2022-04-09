@@ -1,13 +1,12 @@
-
-import Header from './components/Layout/Header/Header';
 import classes from './App.module.css';
+import Part1 from './components/Layout/Part1/Part1_layout';
 
 
 function App() {
   return (
     <div className={classes.App}>
         
-        <Header/>
+        <Part1/>
        
         
     </div>

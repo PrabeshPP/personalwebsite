@@ -1,3 +1,22 @@
+.div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#pra{
+    fill: white;
+}
+
+#besh{
+    fill:  rgb(255, 166, 0);
+    
+}
+
+#Circle2{
+    fill:  rgb(255, 166, 0); 
+}
+
 #circle1{
     animation-name: circle1;
     animation-duration: 10s;
@@ -27,4 +46,6 @@
         fill: rgb(128, 0, 0);
     }
 }
+
+
 

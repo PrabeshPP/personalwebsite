@@ -1,11 +1,11 @@
-import React from "react";
+import classes from "./Part1_layout.module.css";
+import Header from "../Header/Header";
 
 const Part1=()=>{
     return(
-        <React.Fragment>
-            
-
-        </React.Fragment>
+        <div className={classes.part1}>
+            <Header/>
+        </div>
     );
 }
 
