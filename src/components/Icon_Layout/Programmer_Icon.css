@@ -1,64 +1,30 @@
-#wire{
-    animation-name: wire;
-    animation-duration: 1s;
-    animation-direction:alternate-reverse;
+#circle1{
+    animation-name: circle1;
+    animation-duration: 10s;
+    animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
-    fill: red;
+    
     
 }
 
-@keyframes wire {
-    from{
-        fill: red;
-    }
-     to{
-         fill: rgb(246, 255, 0);
-     }
-}
 
 
-#screen{
-    animation-name: screen;
-    animation-duration: 4s;
-    animation-direction:alternate-reverse;
-    animation-iteration-count: infinite;
-   
-}
 
-@keyframes screen {
+@keyframes circle1 {
     0%{
-        fill: red;
+        fill: purple;
     }
-
-    15%{
-        fill: orange;
+    25%{
+        fill: orangered;
     }
-    30%{
-        fill: yellow;
+    50%{
+        fill: rgb(136, 0, 255);
     }
-    45%{
-        fill: green;
-    }
-
-    60%{
-        fill: blue;
-    }
-
     75%{
-        fill: indigo;
+        fill: teal;
     }
-
     100%{
-        fill: violet;
+        fill: rgb(128, 0, 0);
     }
-
-    
 }
 
-#head{
-    fill: rgb(255, 0, 255);
-    animation-name: wire;
-    animation-duration: 1s;
-    animation-direction:alternate-reverse;
-    animation-iteration-count: infinite;
-}
