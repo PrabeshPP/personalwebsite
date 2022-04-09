@@ -8,7 +8,7 @@ function App() {
     <div className={classes.App}>
         
         <Header/>
-        <DescriptionBox/>
+       
         
     </div>
   );

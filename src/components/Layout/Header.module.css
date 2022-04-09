@@ -10,9 +10,7 @@
     position: absolute;
     top: 2%;
     left: 10%;
-    background-color: rgba(219, 219, 219, 0.256);
-    backdrop-filter: blur(10px);
-    box-shadow: 0px 8px 10px rgb(30, 28, 28);
+  
     
     
 }
@@ -43,7 +41,7 @@
     font-weight: bold;
     justify-content: space-around;
     width: 70%;
-    color: white;
+    color: rgb(0, 0, 0);
     
 
 }
