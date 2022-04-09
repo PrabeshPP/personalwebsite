@@ -1,5 +1,5 @@
 
-import { Gmail } from 'react-icons';
+
 
 const SocialMedia=()=>{
   return (
