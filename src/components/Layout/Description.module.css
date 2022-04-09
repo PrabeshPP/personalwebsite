@@ -1,11 +1,9 @@
 .box{
-    height: 50vh;
+    height: 55vh;
     width: 40%;  
     position: relative;
     top: 30%; 
     left: 10%;
-    
-   
 }
 
 
@@ -26,4 +24,25 @@
     top: 5%;
     color: white;
    
+}
+
+.button{
+    position: relative;
+    top: 10%;
+    width: 20%;
+    height: 5vh;
+    border: 2px solid rgba(0, 0, 0, 0);
+    text-align: center;
+    border-radius: 50px;
+    font-weight:bolder;
+    color:black;
+    background-color: rgb(255, 166, 0);
+}
+
+.button:hover,
+.button:active{
+    background-color: rgb(170, 0, 255);
+    cursor: pointer;
+    box-shadow: 1px 1.6px 2px rgb(119, 111, 111);
+    color: white;
 }

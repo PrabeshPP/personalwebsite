@@ -11,6 +11,7 @@ const DescriptionBox = () => {
         computer,history and economics.Checkout my personal projects and
         open-source work,fleel free to get in touch if you want to work with me.
       </p>
+      <button className={classes.button}>Hire me</button>
     </div>
   );
 };
