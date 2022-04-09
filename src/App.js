@@ -1,7 +1,7 @@
 
-import Header from './components/Layout/Header';
+import Header from './components/Layout/Header/Header';
 import classes from './App.module.css';
-import DescriptionBox from './components/Layout/Description';
+
 
 function App() {
   return (
