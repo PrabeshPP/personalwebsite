@@ -6,5 +6,21 @@
     left: 70%;
     bottom: 35%;
     box-shadow: 3px 3px 3px rgb(102, 0, 254);
+    animation-name: cover;
+    animation-duration: 5s;
+    animation-direction: normal;
 
+}
+
+@keyframes cover {
+    from{
+        opacity: 0;
+
+    }
+
+    to{
+        left: 1;
+
+    }
+    
 }
