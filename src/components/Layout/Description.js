@@ -3,7 +3,7 @@ import classes from "./Description.module.css";
 const DescriptionBox = () => {
   return (
     <div className={classes.box}>
-      <h1 className={classes.header}>Hi,I'm Prabesh.</h1>
+      <h1 className={classes.header}>Hi ! I'm <span>Prabesh.</span></h1>
       <p className={classes.body}>
         I am a mobile app developer,block-chain enthusiast,open-source
         contributor with root knwoledge in Java,Dart, and JavaScript.I am a
