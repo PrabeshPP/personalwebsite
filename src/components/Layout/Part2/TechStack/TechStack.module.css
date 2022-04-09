@@ -1,0 +1,116 @@
+.box{
+    width: 100%;
+    height: 10vh;
+    display:inline;
+    
+    
+    
+}
+
+.h1{
+    position: relative;
+    left: 10%;
+    width: 20%;
+    
+}
+.h1 span{
+    color: rgb(255, 166, 0) ;
+}
+
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.img{
+    height: 40%;
+    width: 4%;
+    object-fit:contain;
+    
+}
+
+.img:hover{
+    
+    background-color: rgb(255, 166, 0);
+    cursor: pointer;
+    box-shadow: 2px 3px 2px black;
+    object-fit: contain;
+    
+}
+
+.imgJS{
+    width: 4.5%;
+    object-fit:contain;
+
+}
+
+.imgJS:hover{
+    object-fit: cover;
+    background-color: rgb(255, 166, 0);
+    cursor: pointer;
+    box-shadow: 2px 3px 2px rgb(29, 28, 28);
+    
+
+}
+
+.img .tooltiptext{
+    visibility: hidden;
+    height: 5%;
+    width: 100px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 0.5%;
+    position: absolute;
+    z-index: 1;
+    
+    
+}
+
+.img .tooltiptext::after{
+    content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+
+.img:hover .tooltiptext{
+    visibility: visible;
+}
+
+.imgJS .tooltiptext{
+    visibility: hidden;
+    height: 5%;
+    width: 100px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 0.5%;
+    position: absolute;
+    z-index: 1;
+    
+    
+}
+
+.imgJS .tooltiptext::after{
+    content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+
+.imgJS:hover .tooltiptext{
+    visibility: visible;
+}
+
