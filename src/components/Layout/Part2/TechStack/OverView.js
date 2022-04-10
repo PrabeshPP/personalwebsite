@@ -1,10 +1,17 @@
 import classes from "./OverView.module.css";
 import { HiDesktopComputer,HiDeviceMobile } from "react-icons/hi";
 import {RiReactjsFill} from "react-icons/ri";
-import {FaEthereum} from "react-icons/fa";
+import {FaEthereum,FaGithubAlt} from "react-icons/fa";
+
 const OverView = () => {
   return (
     <div className={classes.container}>
+        
+        <div className={classes.githubBox}>
+        <FaGithubAlt className={classes.github} />
+        </div>
+        
+
       <div className={classes.box}>
         <div className={classes.box1}>
           <span>
