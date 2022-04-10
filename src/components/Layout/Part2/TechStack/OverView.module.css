@@ -1,0 +1,41 @@
+.container{
+    background-color: #2F2E41;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+.box{
+    height: 80%;
+    width: 60%;
+  
+    margin-top: 2%;
+    margin-left: 25%;
+    border: 2px solid red;
+}
+
+.box1{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    
+    
+
+}
+
+.box1 span{
+    font-size: 120%;
+
+}
+
+.box2{
+    width: 100%;
+    background-color: teal;
+    height: 70%;
+
+}
