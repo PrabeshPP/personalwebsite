@@ -1,8 +1,10 @@
 .box1{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     background-color: black;
+    height: 15vh;
+    align-items: center;
+    
     
 }
 
@@ -21,7 +23,8 @@
 }
 
 .imgJS{
-    width: 4.5%;
+    height: 40%;
+    width: 4%;
     object-fit:contain;
 
 }

@@ -1,9 +1,10 @@
 .container{
     background-color: #2F2E41;
-    height: 80vh;
+    height: 75vh;
     width: 100%;
     display: flex;
    justify-content: space-evenly;
+   align-items: center;
 }
 
 .githubBox{
@@ -94,7 +95,7 @@
     width: 60%;
     padding-left: 5%;
     color: white;
-    font-size: 100%;
+    font-size: 1.3vw;
     font-weight: bold;
     
 }
@@ -121,7 +122,7 @@
     width: 60%;
     padding-left: 5%;
     color: white;
-    font-size: 100%;
+    font-size: 1.3vw;
     font-weight: bold;
 
 }
@@ -149,7 +150,7 @@
     width: 60%;
     padding-left: 5%;
     color: white;
-    font-size: 100%;
+    font-size: 1.2vw;
     font-weight: bold;
 
 }
@@ -177,7 +178,7 @@
     width: 60%;
     padding-left: 5%;
     color: white;
-    font-size: 100%;
+    font-size: 1.26vw;
     font-weight: bold;
 
 }
