@@ -1,0 +1,97 @@
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.img{
+    height: 40%;
+    width: 4%;
+    object-fit:contain;
+    
+}
+
+.img:hover{
+    cursor: pointer;
+    object-fit: contain;
+    
+    
+}
+
+.imgJS{
+    width: 4.5%;
+    object-fit:contain;
+
+}
+
+.imgJS:hover{
+    object-fit: cover;
+ 
+    cursor: pointer;
+   
+    
+
+}
+
+.img .tooltiptext{
+    visibility: hidden;
+    height: 5%;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 0.5%;
+    position: absolute;
+    z-index: 1;
+    
+    
+}
+
+.img .tooltiptext::after{
+    content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent rgb(255, 255, 255) transparent transparent;
+}
+
+.img:hover .tooltiptext{
+    visibility: visible;
+}
+
+.imgJS .tooltiptext{
+    visibility: hidden;
+    height: 5%;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 0.5%;
+    position: absolute;
+    z-index: 1;
+    
+    
+}
+
+.imgJS .tooltiptext::after{
+    content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent rgb(255, 255, 255) transparent transparent;
+}
+
+.imgJS:hover .tooltiptext{
+    visibility: visible;
+}
+

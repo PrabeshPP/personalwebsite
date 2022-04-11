@@ -1,0 +1,183 @@
+.container{
+    background-color: #2F2E41;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+   justify-content: space-evenly;
+}
+
+.githubBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height:70% ;
+    
+}
+
+.github{
+    position: relative;
+    top: 10%;
+    height: 80%;
+    width: 80%;
+    color: white;
+   
+}
+
+.github:hover{
+    color: rgb(190, 123, 0);
+    cursor: pointer;
+}
+
+.box{
+    height: 70%;
+    width: 60%;
+    
+    
+}
+
+.box1{
+    height: 30%;
+    width: 90%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    
+    
+    
+
+}
+
+.box1 span{
+    font-size: 120%;
+
+}
+
+.box2{
+    width: 100%;
+    
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box2 .box3{
+    height: 100%;
+    width: 24%;
+    background-color: white;
+}
+
+.box2 .frontEnd{
+    height: 100%;
+    width: 24%;
+    background-color:purple;
+    display: block;
+
+}
+
+
+
+.desktop{
+    width: 20%;
+    height: 20%;
+    color: white;
+    padding-left: 5%;
+    margin-top: 65%;
+}
+
+.frontEnd .text{
+    width: 60%;
+    padding-left: 5%;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+    
+}
+
+.mobileApp{
+    height: 100%;
+    width: 24%;
+    background-color:rgba(0, 193, 193, 0.628);
+    display: block;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+
+}
+
+.mobileApp .mobile{
+    width: 20%;
+    height: 20%;
+    color: white;
+    padding-left: 5%;
+    margin-top: 65%;
+}
+
+.mobileApp .text{
+    width: 60%;
+    padding-left: 5%;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+
+}
+
+.Algo{
+    height: 100%;
+    width: 24%;
+    background-color:black;
+    display: block;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+
+}
+
+.Algo .algo{
+    width: 20%;
+    height: 20%;
+    color: lightskyblue;
+    padding-left: 5%;
+    margin-top: 53%;
+
+}
+
+.Algo .text{
+    width: 60%;
+    padding-left: 5%;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+
+}
+
+.blockChain{
+    height: 100%;
+    width: 24%;
+    background-color:black;
+    display: block;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+
+}
+
+.blockChain .eth{
+    width: 20%;
+    height: 20%;
+    color: lightskyblue;
+    padding-left: 5%;
+    margin-top: 55%;
+
+}
+
+.blockChain .text{
+    width: 60%;
+    padding-left: 5%;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+
+}

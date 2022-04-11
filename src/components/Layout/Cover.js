@@ -2,7 +2,7 @@ import coverImg from "C:/Users/prabe/OneDrive/Desktop/personalwebsite/personalwe
 import classes from "./Cover.module.css";
 const Cover=()=>{
     return(
-        <img src={coverImg} alt="SVG as an image" className={classes.coverImg}/>
+        <img src={coverImg} alt="cover" className={classes.coverImg}/>
     )
 
 }

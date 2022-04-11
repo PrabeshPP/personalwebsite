@@ -4,12 +4,12 @@
     border-radius: 100%;
     position: relative;
     left: 70%;
-    bottom: 35%;
-    
+    bottom: 40%;
     animation-name: shadow;
     animation-duration: 2s;
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
+    
     
 
 }
