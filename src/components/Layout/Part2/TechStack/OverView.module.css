@@ -73,9 +73,38 @@
     background-color: white;
 }
 
-.box2 .frontEnd{
+.flipCard{
     height: 100%;
     width: 24%;
+    background-color: transparent;
+    perspective: 1000px;
+
+}
+
+.flipCardInner{
+        position:relative;
+        height: 100%;
+        width: 100%;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+}
+
+.flipCard:hover .flipCardInner{
+    transform: rotateY(180deg);
+}
+
+.frontEnd , .flipCardback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+
+.box2 .frontEnd{
+    height: 100%;
+    width: 100%;
     background-color:purple;
     display: block;
 
@@ -100,9 +129,46 @@
     
 }
 
+.flipCardback{
+    background-color: rebeccapurple;
+    color: aliceblue;
+    transform: rotateY(180deg);
+    
+    
+    
+}
+
+.flipCardback h3,
+ul{
+    margin-left:10% ;
+
+}
+
+
+
+.flipCardback ul li{
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.flipCardback h4 span{
+    color:rgb(190, 123, 0) ;
+    margin-left:10% ;
+}
+
+
+
+.mobileApp , .flipCardback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
 .mobileApp{
     height: 100%;
-    width: 24%;
+    width: 100%;
     background-color:rgba(0, 193, 193, 0.628);
     display: block;
     backdrop-filter: blur(50px);
@@ -127,9 +193,18 @@
 
 }
 
+
+.Algo , .flipCardback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
 .Algo{
     height: 100%;
-    width: 24%;
+    width: 100%;
     background-color:black;
     display: block;
     backdrop-filter: blur(50px);
@@ -155,9 +230,17 @@
 
 }
 
+.blockChain , .flipCardback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
 .blockChain{
     height: 100%;
-    width: 24%;
+    width: 100%;
     background-color:black;
     display: block;
     backdrop-filter: blur(50px);
