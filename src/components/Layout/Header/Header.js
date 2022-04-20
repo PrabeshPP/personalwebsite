@@ -9,8 +9,9 @@ const Header = () => {
       <div className={classes.box2}>
         <ul>
           <li>Home</li>
-          <li>About</li>
           <li>Services</li>
+          <li>About</li>
+          
         </ul>
         <button className={classes.button}>Contact</button>
       </div>

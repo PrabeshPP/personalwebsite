@@ -1,13 +1,19 @@
 import classes from "./OverView.module.css";
 import { HiDesktopComputer, HiDeviceMobile } from "react-icons/hi";
 import { RiReactjsFill } from "react-icons/ri";
-import { FaEthereum, FaGithubAlt } from "react-icons/fa";
-
+import coverImg from "C:/Users/prabe/OneDrive/Desktop/personalwebsite/personalwebsite/src/assets/pic2.jpg"
+import coverImg1 from "C:/Users/prabe/OneDrive/Desktop/personalwebsite/personalwebsite/src/assets/pic1.jpg"
 const OverView = () => {
   return (
     <div className={classes.container}>
-      <div className={classes.githubBox}>
-        <FaGithubAlt className={classes.github} />
+      <div className={classes.left}>
+       <img  className={classes.pic1} src={coverImg} />
+        <div className={classes.backImg}>
+        </div>
+        {/* <img  className={classes.pic2} src={coverImg1} /> */}
+     
+       
+        
       </div>
 
       <div className={classes.box}>
@@ -79,26 +85,7 @@ const OverView = () => {
             </div>
           </div>
 
-          <div className={classes.flipCard}>
-            <div className={classes.flipCardInner}>
-              <div className={classes.blockChain}>
-                <FaEthereum className={classes.eth} />
-                <div className={classes.text}>
-                  <span>BlockChain App Developer</span>
-                </div>
-              </div>
-
-              <div className={classes.flipCardback}>
-                <h3>Skills</h3>
-                <ul>
-                  <li>Solidity</li>
-                  <li>Web3js</li>
-                  <li>Truffle</li>
-                  <li>Ganache</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
     </div>

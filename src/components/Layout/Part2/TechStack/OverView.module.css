@@ -7,33 +7,60 @@
    align-items: center;
 }
 
-.githubBox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    height:70% ;
+.left{
+    width: 40%;
+    height: 80%;
+    position: relative;
+
     
 }
 
-.github{
+
+
+.left .pic1{
+    height: 75%;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    transform: rotateZ(10deg);
+    cursor: pointer;
     position: relative;
-    top: 10%;
-    height: 80%;
-    width: 80%;
-    color: white;
+    
    
 }
 
-.github:hover{
-    color: rgb(190, 123, 0);
+.left .backImg{
+    height: 75%;
+    width: 50%;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    position: relative;
+   
+
+}
+.left .pic2{
+    height: 75%;
+    width: 50%;
+    object-fit: cover;
+    border-radius: 10px;
     cursor: pointer;
+    position: relative;
+   
 }
 
+
+
+.left .pic1:hover{
+    transform: rotateZ(0deg);
+}
+
+
+
 .box{
-    height: 70%;
+    height: 80%;
     width: 60%;
-    
     
 }
 
@@ -45,8 +72,9 @@
     font-weight: bold;
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     margin-left: 5%;
+   
     
     
     
@@ -60,24 +88,19 @@
 
 .box2{
     width: 100%;
-    
     height: 70%;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: space-around;
+    
 }
 
-.box2 .box3{
-    height: 100%;
-    width: 24%;
-    background-color: white;
-}
 
 .flipCard{
     height: 100%;
-    width: 24%;
+    width: 28%;
     background-color: transparent;
     perspective: 1000px;
+    cursor: pointer;
 
 }
 
@@ -117,7 +140,7 @@
     height: 20%;
     color: white;
     padding-left: 5%;
-    margin-top: 65%;
+    margin-top: 60%;
 }
 
 .frontEnd .text{
@@ -181,7 +204,7 @@ ul{
     height: 20%;
     color: white;
     padding-left: 5%;
-    margin-top: 65%;
+    margin-top: 60%;
 }
 
 .mobileApp .text{
@@ -217,7 +240,7 @@ ul{
     height: 20%;
     color: lightskyblue;
     padding-left: 5%;
-    margin-top: 53%;
+    margin-top: 60%;
 
 }
 
@@ -230,38 +253,6 @@ ul{
 
 }
 
-.blockChain , .flipCardback{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-}
 
-.blockChain{
-    height: 100%;
-    width: 100%;
-    background-color:black;
-    display: block;
-    backdrop-filter: blur(50px);
-    -webkit-backdrop-filter: blur(50px);
 
-}
 
-.blockChain .eth{
-    width: 20%;
-    height: 20%;
-    color: lightskyblue;
-    padding-left: 5%;
-    margin-top: 55%;
-
-}
-
-.blockChain .text{
-    width: 60%;
-    padding-left: 5%;
-    color: white;
-    font-size: 1.26vw;
-    font-weight: bold;
-
-}
