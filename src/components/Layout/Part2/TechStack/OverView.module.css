@@ -10,9 +10,11 @@
 .left{
     width: 40%;
     height: 80%;
-    position: relative;
-
-    
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
 }
 
 
@@ -24,7 +26,10 @@
     border-radius: 10px;
     transform: rotateZ(10deg);
     cursor: pointer;
-    position: relative;
+    position: absolute;
+    z-index: 10;
+    top: 25%;
+   
     
    
 }
@@ -32,11 +37,13 @@
 .left .backImg{
     height: 75%;
     width: 50%;
-    background-color: rgb(255, 0, 0);
+    background-color: rgba(255, 255, 255, 0.269);
     border-radius: 10px;
-    backdrop-filter: blur(25px);
-    -webkit-backdrop-filter: blur(25px);
-    position: relative;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: absolute;
+   top: 25%;
+    z-index:9 ;
    
 
 }
@@ -46,7 +53,9 @@
     object-fit: cover;
     border-radius: 10px;
     cursor: pointer;
-    position: relative;
+    position: absolute;
+    z-index: 8;
+    top: 25%;
    
 }
 

@@ -7,10 +7,10 @@ const OverView = () => {
   return (
     <div className={classes.container}>
       <div className={classes.left}>
-       <img  className={classes.pic1} src={coverImg} />
+       <img  className={classes.pic1} src={coverImg1} />
         <div className={classes.backImg}>
         </div>
-        {/* <img  className={classes.pic2} src={coverImg1} /> */}
+        <img  className={classes.pic2} src={coverImg} />
      
        
         
