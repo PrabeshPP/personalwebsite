@@ -12,7 +12,7 @@ const Header = () => {
       </span>
       <div className={classes.box2}>
         <ul>
-          <li onClick={scrollToSection}>Home</li>
+          <li>Home</li>
           <li>Services</li>
           <li>About</li>
           

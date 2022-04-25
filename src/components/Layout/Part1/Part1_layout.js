@@ -7,8 +7,14 @@ const Part1=()=>{
     return(
         <div className={classes.part1}>
             <Header/>
-            <DescriptionBox/>
-            <Cover/>
+            <div className={classes.body}>
+                <DescriptionBox/>
+                <Cover/>
+
+            </div>
+
+            {/* 
+             */}
         </div>
     );
 }

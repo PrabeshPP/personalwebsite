@@ -7,12 +7,7 @@ import Part2 from './components/Layout/Part2/Part2_layout';
 function App() {
   return (
     <div className={classes.App}>
-        
         <Part1/>
-        <Part2/>
-       
-       
-        
     </div>
   );
 }

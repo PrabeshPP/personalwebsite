@@ -1,9 +1,7 @@
 .box{
-    height: 55vh;
-    width: 40%;  
-    position: relative;
-    top: 30%; 
-    left: 10%;
+    width: 40%;
+  
+    
 }
 
 
@@ -20,15 +18,13 @@
 }
 
 .body{
-    position: relative;
-    top: 5%;
+    margin-top: 5%;
     color: white;
    
 }
 
 .button{
-    position: relative;
-    top: 10%;
+   margin-top: 10%;
     width: 20%;
     height: 5vh;
     border: 2px solid rgba(0, 0, 0, 0);
