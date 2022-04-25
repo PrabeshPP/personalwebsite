@@ -1,12 +1,31 @@
+.parentBox{
+    height: 15vh;
+    width: 100%;
+    position: relative;
+}
+
+
 .box1{
     display: flex;
     justify-content: space-evenly;
-    background-color: black;
-    height: 15vh;
+    background-color: rgba(0, 0, 0, 0.283);
     align-items: center;
+    height: 100%;
     width: 100%;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+    position: absolute;
     
     
+}
+
+.box2{
+    background-image: url(C:/Users/prabe/OneDrive/Desktop/personalwebsite/personalwebsite/src/assets/backImg.jpg);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    object-fit: fill;
+
 }
 
 .img{
@@ -43,10 +62,10 @@
 
 .img .tooltiptext{
     visibility: hidden;
-    height: 5%;
+    height: 30%;
     width: 100px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     border-radius: 6px;
     margin-left: 0.5%;
@@ -64,7 +83,7 @@
   margin-top: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent rgb(255, 255, 255) transparent transparent;
+  border-color: transparent rgb(0, 0, 0) transparent transparent;
 }
 
 .img:hover .tooltiptext{
@@ -73,10 +92,10 @@
 
 .imgJS .tooltiptext{
     visibility: hidden;
-    height: 5%;
+    height: 30%;
     width: 100px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: white;
     text-align: center;
     border-radius: 6px;
     margin-left: 0.5%;
@@ -94,7 +113,7 @@
   margin-top: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent rgb(255, 255, 255) transparent transparent;
+  border-color: transparent rgb(0, 0, 0) transparent transparent;
 }
 
 .imgJS:hover .tooltiptext{

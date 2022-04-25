@@ -1,9 +1,10 @@
 import classes from "./TechStack.module.css";
 const TechStack = () => {
   return (
-    
-     
-      <div className={classes.box1}>
+      <div className={classes.parentBox}>
+        <div className={classes.box2}>
+        </div>
+        <div className={classes.box1}>
         <div className={classes.img}>
           <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
@@ -57,6 +58,7 @@ const TechStack = () => {
           />
           <span class={classes.tooltiptext}>React</span>
         </div>
+      </div>
       </div>
    
   );
