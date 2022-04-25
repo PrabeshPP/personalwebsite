@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: space-around;
     margin: auto;
+    position:fixed;
     background-color: rgba(0, 0, 0, 0.333);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -35,16 +36,25 @@
     font-weight: bold;
     justify-content: space-around;
     width: 70%;
-    color: rgb(255, 255, 255);
     cursor: pointer;
     
 
 }
 
-.box2 li:hover,
-li:active{
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover,
+a:active{
     color: rgb(190, 123, 0);
     cursor: pointer;
+}
+
+ a.active{
+    color: rgb(255, 106, 0);
+
 }
 
 .button{

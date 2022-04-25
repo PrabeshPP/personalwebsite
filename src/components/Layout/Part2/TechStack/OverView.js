@@ -11,9 +11,6 @@ const OverView = () => {
         <div className={classes.backImg}>
         </div>
         <img  className={classes.pic2} src={coverImg} />
-     
-       
-        
       </div>
 
       <div className={classes.box}>

@@ -4,6 +4,7 @@
     background-color: black;
     height: 15vh;
     align-items: center;
+    width: 100%;
     
     
 }
@@ -12,6 +13,7 @@
     height: 40%;
     width: 4%;
     object-fit:contain;
+    margin-bottom: 1.5%;
     
 }
 
@@ -26,6 +28,7 @@
     height: 40%;
     width: 4%;
     object-fit:contain;
+    margin-bottom: 1.5%;
 
 }
 
