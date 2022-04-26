@@ -1,0 +1,41 @@
+.box{
+    height: 93vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 65%;
+    width: 25%;
+    background-color: rgba(0, 0, 0, 0.733);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 16px;
+    margin-left: 3%;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(53, 50, 50, 0.484);
+    
+  
+
+}
+
+
+
+.container img{
+    height: 70%;
+    width: 95%;
+    object-fit: cover;
+    padding: 2% 2% 0% 2%;
+    border-radius: 12px;
+
+}
+
+.container:hover{
+    box-shadow: 5px 5px 5px rgb(255, 0, 225) ;
+}
+
+

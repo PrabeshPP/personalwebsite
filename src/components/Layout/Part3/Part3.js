@@ -1,9 +1,16 @@
-import RecentProjects from "./RecentProjects/RecentProjects";
 
+import classes from "./Part3.module.css";
+import RecentProjects from "./RecentProjects/RecentProjects";
+import Footer from "./RecentProjects/Footer";
 const Part3=()=>{
-    <div>
-        <RecentProjects/>
+   return(
+    <div className={classes.part3}>
+    <RecentProjects/>
+    <Footer/>
+        
     </div>
+   )
+   
 
 }
 

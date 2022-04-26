@@ -2,6 +2,9 @@ import classes from "./Header.module.css";
 import ProgrammerIcon from "../../Icon_Layout/Programmer_Icon";
 import { NavLink } from "react-router-dom";
 const Header = () => {
+  const onOpenEmail=()=>{
+    return window.open('mailto:prabesh.bista1000@gmail.com');
+  }
   return (
     <div className={classes.header}>
       <span className={classes.progIcon}>
@@ -28,7 +31,7 @@ const Header = () => {
             Projects
           </NavLink>
         </ul>
-        <button className={classes.button}>Contact</button>
+        <button onClick={onOpenEmail} className={classes.button}>Contact</button>
       </div>
     </div>
   );

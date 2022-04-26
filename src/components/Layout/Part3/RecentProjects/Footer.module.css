@@ -1,0 +1,11 @@
+.footer{
+    height: 7vh;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.703) ;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
