@@ -24,3 +24,10 @@
     }
     
 }
+
+@media (max-width:480px){
+    .coverImg{
+        height: 30%;
+        width: 60%;
+    }
+}

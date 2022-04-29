@@ -5,7 +5,10 @@
     display: flex;
    justify-content: space-evenly;
    align-items: center;
+  
 }
+
+
 
 .left{
     width: 40%;
@@ -42,7 +45,7 @@
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     position: absolute;
-   top: 25%;
+    top: 25%;
     z-index:9 ;
    
 
@@ -70,6 +73,7 @@
 .box{
     height: 80%;
     width: 60%;
+  
     
 }
 
@@ -83,6 +87,7 @@
     justify-content: center;
     
     margin-left: 5%;
+    
    
     
     
@@ -100,6 +105,7 @@
     height: 70%;
     display: flex;
     justify-content: space-around;
+   
     
 }
 
@@ -155,8 +161,8 @@
 .frontEnd .text{
     width: 60%;
     padding-left: 5%;
-    color: white;
-    font-size: 1.3vw;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
     font-weight: bold;
     
 }
@@ -180,12 +186,19 @@ ul{
 
 .flipCardback ul li{
     font-weight: bold;
-    font-size: 1vw;
+    font-size: 1.3rem;
+}
+
+.flipCardback h4{
+    font-size: 1.3rem;
+
 }
 
 .flipCardback h4 span{
     color:rgb(190, 123, 0) ;
-    margin-left:10% ;
+    margin-left: 5%;
+    font-size: 1.3rem;
+   
 }
 
 
@@ -220,7 +233,7 @@ ul{
     width: 60%;
     padding-left: 5%;
     color: white;
-    font-size: 1.3vw;
+    font-size: 1.3rem;
     font-weight: bold;
 
 }
@@ -254,14 +267,91 @@ ul{
 }
 
 .Algo .text{
-    width: 60%;
+    width: 90%;
     padding-left: 5%;
     color: white;
-    font-size: 1.2vw;
+    font-size: 1.2rem;
     font-weight: bold;
 
 }
 
+@media (max-width:480px){
+    .container{
+        flex-direction: column;
+        height:auto;
+        
+       
+        
+    }
 
+    .left{
+        width: 100%;
+        height: 30vh;
+        position: relative;
+        margin-top: 140vh;
+    }
+
+    .left .pic1{
+        height: 85%;
+        width: 80%;
+        top: 8%;
+        transform: rotate(0deg);
+    }
+
+    .left .backImg{
+        height: 85%;
+        width: 80%;
+        top: 8%;
+    }
+
+    .left .pic2{
+        width: 80%;
+        height: 85%;
+        top: 8%;
+    }
+
+    
+
+    .box{
+        width: 95%;
+        height: auto;
+
+       
+        
+    }
+
+    .box1{
+       
+        height: 20vh;
+        align-items: center;
+        
+    }
+
+    .box2{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        
+        
+    }
+
+    .flipCard{
+        width: 80%;
+        height:45vh;
+        padding-bottom:12%;
+    }
+
+    .Algo .algo{
+        margin-top: 75%;
+    }
+    
+
+   
+
+
+
+   
+}
 
 

@@ -21,7 +21,7 @@ const RecentProjects=()=>{
 
     return <div className={classes.box}>
     {/* Discover Nepal */}
-        <div onClick={onClickHandler} className={classes.container} >
+        <div onClick={onClickHandler} className={classes.firstContainer} >
             <img src={discoverImg1} alt="Discover Nepal" />
             <h1>Discover Nepal</h1>
             
