@@ -10,16 +10,14 @@
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     z-index: 20;
+   
 
     
     
 }
 
 .progIcon{
-  
-   height: 60%;
-   
-   
+   background-color: yellow;
 }
 
 .box2{
@@ -37,6 +35,8 @@
     justify-content: space-around;
     width: 70%;
     cursor: pointer;
+    margin: 0px;
+    padding: 0px;
     
 
 }
@@ -75,5 +75,46 @@ a:active{
     cursor: pointer;
     box-shadow: 1px 1.6px 2px rgb(119, 111, 111);
     color: white;
+}
+
+.icon{
+    display: none;
+}
+
+@media (max-width:480px){
+    .header{
+        display: flex;
+        height: 10vh;
+        width: 100%;
+    }
+
+
+    .box2{
+       display: none;
+    }
+
+    .icon{
+        display: inline-block;
+        color: white;
+        width: 10vw;
+        height: 12vh;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        right: 4%;
+        
+        
+        
+    }
+
+    .iconIco{
+        position: absolute;
+        top: 1.9vh;
+        height: 50%;
+        width: 80%;
+        object-fit: cover;
+
+    }
 }
 

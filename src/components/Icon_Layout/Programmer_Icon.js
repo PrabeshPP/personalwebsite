@@ -1,9 +1,10 @@
 
 import "./Programmer_Icon.css";
 
+
 const ProgrammerIcon = () => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg">
+    <svg className="svg" xmlns="http://www.w3.org/2000/svg">
 
 <g id="pra" filter="url(#filter0_d_0_1)">
 <g id="Pra">

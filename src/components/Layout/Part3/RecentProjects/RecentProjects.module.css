@@ -62,12 +62,12 @@
 }
 
 .firstContainer:hover{
-    box-shadow: 5px 5px 2px rgb(255, 111, 0) ;
+    box-shadow: 5px 5px 2px rgb(40, 33, 33) ;
 
 }
 
 .container:hover{
-    box-shadow: 5px 5px 2px rgb(255, 111, 0) ;
+    box-shadow: 5px 5px 2px rgb(40, 33, 33) ;
 }
 
 @media (max-width:480px){

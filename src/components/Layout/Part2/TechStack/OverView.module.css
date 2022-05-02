@@ -65,7 +65,11 @@
 
 
 .left .pic1:hover{
-    transform: rotateZ(0deg);
+    transform: rotateZ(0deg) ;
+}
+
+.pic1{
+    transition: transform 500ms ease-in-out;
 }
 
 
@@ -144,7 +148,9 @@
     height: 100%;
     width: 100%;
     background-color:purple;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 
 }
 
@@ -154,8 +160,7 @@
     width: 20%;
     height: 20%;
     color: white;
-    padding-left: 5%;
-    margin-top: 60%;
+    
 }
 
 .frontEnd .text{
@@ -218,6 +223,9 @@ ul{
     display: block;
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 
 }
 
@@ -226,7 +234,7 @@ ul{
     height: 20%;
     color: white;
     padding-left: 5%;
-    margin-top: 60%;
+    
 }
 
 .mobileApp .text{
@@ -254,6 +262,9 @@ ul{
     display: block;
     backdrop-filter: blur(50px);
     -webkit-backdrop-filter: blur(50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 
 }
 
@@ -261,8 +272,8 @@ ul{
     width: 20%;
     height: 20%;
     color: lightskyblue;
-    padding-left: 5%;
-    margin-top: 60%;
+    
+    
 
 }
 
@@ -344,6 +355,7 @@ ul{
 
     .Algo .algo{
         margin-top: 75%;
+        
     }
     
 

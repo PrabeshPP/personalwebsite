@@ -27,6 +27,12 @@
 }
 
 
+.svg{
+    height: 8vh;
+    width: 80%;
+    object-fit: contain;
+}
+
 
 
 @keyframes circle1 {

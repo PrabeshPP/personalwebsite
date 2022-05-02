@@ -1,3 +1,9 @@
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
+
 
 .part1{
     background-color: #2F2E41;
@@ -12,8 +18,9 @@
     height: 90vh;
     width: 100%;
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     align-items: center;
+
     
    
 }
@@ -21,8 +28,11 @@
 @media (max-width:480px){
     .body{
         flex-direction: column-reverse;
-        padding-top: 20%;
+        padding-top: 12vh;
+        justify-content: center;
     }
+
+   
 
 
 }

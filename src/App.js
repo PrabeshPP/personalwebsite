@@ -2,6 +2,7 @@
 import {Routes,Route,Navigate} from "react-router-dom";
 import Layout from './components/Layout/Layout';
 import React,{Suspense} from "react";
+import LoadingScreen from "./LoadingScreen";
 
 
 const Part1=React.lazy(()=>import("./components/Layout/Part1/Part1_layout"));
@@ -13,7 +14,7 @@ function App() {
   return (
     
      <Layout>
-     <Suspense fallback={<p>Loading.....</p>}>
+     <Suspense fallback={<LoadingScreen/>}>
        <Routes>
        <Route path="/" element={<Navigate to={"/home"}/>}/>
         <Route path='/home' element={<Part1/>}/>
